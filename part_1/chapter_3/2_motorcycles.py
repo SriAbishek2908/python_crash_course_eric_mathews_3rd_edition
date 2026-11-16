@@ -1,15 +1,19 @@
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
+# Modifying Elements in a List:
 motorcycles[1] = 'tvs'
 print(motorcycles)
 
+# Appending elements to the end of a List:
 motorcycles.append('ducati')
 print(motorcycles)
 
+# Inserting Element into a List:
 motorcycles.insert(1,'hero')
 print(motorcycles)
 
+#print message with f strings
 message = f"My favourite motorcycle is {motorcycles[2].title()}"
 print(message)
 
@@ -19,7 +23,6 @@ print(f"My favourite motorcycle is {message_1}")
 print(motorcycles)
 
 #Removing an item from a list using the del statement
-
 motorcycles = ['honda', 'yamaha', 'suzuki']
 del motorcycles[0]
 print(motorcycles)
